@@ -1,0 +1,307 @@
+@font-face {
+    font-family: AvenirLTStd-Black;
+    src: url(../fonts/AvenirLTStd-Black.woff2);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(../fonts/AvenirLTStd-Book.woff2);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(../fonts/AvenirLTStd-Roman.woff2);
+}
+
+/* div {
+    font-family: myFirstFont;
+  } */
+
+body{
+    font-family: 'AvenirLTStd-Roman';
+}
+
+ul, li {
+    font-family: AvenirLTStd-Black;
+}
+
+.topnavbar {
+    z-index: 1;
+    overflow: hidden !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.content_wrap {
+    margin: 15px;
+    margin-top: 5%;
+}
+
+.wrap_timeline {
+    text-align: center;
+    margin: 3%;
+}
+
+.text_timeline {
+    color: red;
+}
+
+.info_wrap {
+    box-shadow: 0 2px 8px 2px rgb(64 60 67 / 16%);
+    border-right: 6px solid #04AA6D;
+    border-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info_wrap_twitter {
+    box-shadow: 0 2px 8px 2px rgb(64 60 67 / 16%);
+    border-right: 6px solid #39a7d5;
+    border-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info_wrap:hover {
+    box-shadow: 0 4px 10px 4px rgb(64 60 67 / 16%);
+}
+
+.person_img1 {
+    width: 70px;
+    height: 105px;
+    border-radius: 8px;
+}
+
+.person_img {
+    width: 65px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.jus_h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    margin: 3%;
+}
+
+.con_wrao {
+    padding: 15px;
+}
+
+.shadow_ef {
+    width: 50%;
+    margin: 5px;
+    box-shadow: 0 1px 4px 2px rgb(64 60 67 / 16%);
+}
+
+.shadow_header_name{
+    width: 100%;
+    margin: 5px;
+    box-shadow: 0 2px 4px 2px rgb(64 60 67 / 16%);
+}
+
+/* #mine :hover {
+    box-shadow: 0 4px 10px 4px rgb(64 60 67 / 16%);
+} */
+
+.divide {
+    display: flex;
+    justify-content: space-around;
+}
+
+#myBtn:hover {
+    cursor: pointer;
+    color: rgb(10, 89, 141);
+}
+
+#myBtn1:hover {
+    cursor: pointer;
+    color: rgb(10, 89, 141);
+}
+
+.main_page {
+    margin: 0px 200px 100px 50px;
+}
+
+.first_img {
+    width: 135px;
+    height: 210px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 560px) {
+    .search_btn {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divide {
+        display: unset;
+    }
+    .shadow_ef {
+        width: 100%;
+        height: 250px;
+        /* width: 50%; */
+        margin: 5px;
+        box-shadow: 0 2px 4px 2px rgb(64 60 67 / 16%);
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .timeline {
+        display: none !important;
+    }
+    .overview {
+        margin: 0 !important;
+    }
+    .right_space {
+        display: none !important;
+    }
+    .main_page {
+        margin: 30px !important;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .timeline {
+        margin-left: 5%;
+    }
+}
+.time_past{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'AvenirLTStd-Black';
+}
+
+.badge-success{
+    color:#000 !important;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    border-radius: 0.3em;
+    font-size: 15px;
+}
+
+.badge-secondary, .badge-danger{
+    color:#000 !important;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    border-radius: 0.3em;
+    font-size: 15px;
+}
+
+.badge-default{
+    color:#000 !important;
+    background-color: #ededed;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    border-radius: 0.3em;
+    font-family: 'AvenirLTStd-Roman' !important;
+    font-size: 15px;
+}
+.name{
+    margin: 6px;
+    font-family: 'AvenirLTStd-Black';
+}
+.nav-link{
+    padding-left: 0px !important;
+    font-size: 25px !important;
+    font-family: 'AvenirLTStd-Roman' !important;
+}
+.footer_text{
+    color:#fff;
+    font-size:20px;
+    /*position: fixed;
+    bottom: 0;
+    left:0;*/
+    margin-left: 5px;
+}
+.province{
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.context-col {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-left: 50px;
+}
+.context-col {
+    padding-right: 0.98684rem;
+    padding-left: 0.98684rem;
+}
+.context-col {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0.65789rem;
+    padding-left: 0.65789rem;
+    max-width: 100%;
+}
+
+.columns {
+    padding-right: 0.98684rem;
+    padding-left: 0.98684rem;
+    margin-left: 28px;
+    line-height: 1.8;
+}
+.column, .columns {
+    -webkit-box-flex: 1;
+    flex: 1 1 0px;
+    padding-right: 0.65789rem;
+    padding-left: 0.65789rem;
+    min-width: initial;
+    margin-left: 28px;
+}
+
+.large-up-4 > .column, .large-up-4 > .columns {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.medium-up-3 > .column, .medium-up-3 > .columns {
+    -webkit-box-flex: 0;
+    flex: 0 0 33.33333%;
+    max-width: 15.00%;
+}
+.small-up-2 > .column, .small-up-2 > .columns {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+}
+.context-col {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0.65789rem;
+    padding-left: 0.65789rem;
+    max-width: 100%;
+}
+.province_politicians{
+    font-family: AvenirLTStd-Roman;
+}
+
+.lnk{
+    color:#323232 !important;
+    text-decoration: none !important;
+    font-family: AvenirLTStd-Black;
+}
+
+@media only screen and (max-device-width: 480px) {
+    /*.nav-link{
+        font-size: 15px !important;
+        
+    }
+    .content_wrap h1{
+        font-size: 18px !important;;
+        font-family: AvenirLTStd-Black;
+        margin-top: -70px !important;;
+    }
+    #searchField, submit{
+        height: 45px !important;;
+    }*/
+}
